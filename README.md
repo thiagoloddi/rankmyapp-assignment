@@ -32,7 +32,7 @@ Run this command with environment variable `NODE_ENV='local'` to run in watch mo
 
 ## Run
 ```bash
-npm run start
+npm start
 ```
 
 Or, for watch mode:
@@ -41,6 +41,11 @@ npm run dev
 ```
 
 Access `localhost:8080` in your browser to start using the application.
+
+# Tests
+```bash
+npm test
+```
 
 # Caveats
 
