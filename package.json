@@ -1,0 +1,48 @@
+{
+  "name": "rank-my-app-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "build": "webpack",
+    "dev": "nodemon index.js --exec babel-node",
+    "test": "mocha --require @babel/register --require @babel/polyfill --exit",
+    "compile": "babel -d lib ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "axios": "^0.18.0",
+    "lodash.find": "^4.6.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-jss": "^8.6.1",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^3.9.2",
+    "babel-loader": "^8.0.5",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "compression": "^1.7.3",
+    "cron": "^1.6.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "mongoose": "^5.4.14",
+    "nodemailer": "^5.1.1"
+  }
+}
